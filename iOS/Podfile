@@ -1,0 +1,43 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Etch' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Etch
+#  pod 'Alamofire'
+  pod 'IQKeyboardManagerSwift'
+  pod 'R.swift'
+#  pod 'SideMenu'
+  pod 'ObjectMapper'
+
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Functions'
+  
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleSignIn'
+  
+  pod 'SwiftyJSON'
+  pod 'KeychainSwift'
+
+  pod 'SVProgressHUD'
+  pod 'SDWebImage'
+  
+#  pod 'CurrencyTextField'
+
+#  pod 'Stripe'
+#  pod 'AFNetworking'
+#  pod 'CreditCardForm'
+  
+#  pod 'GooglePlaces'
+#  pod 'McPicker'
+  pod 'DatePickerDialog'
+end
